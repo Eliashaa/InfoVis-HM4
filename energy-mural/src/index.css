@@ -109,3 +109,35 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+:root {
+  color-scheme: light;
+  color: #35403b;
+  background: #e9ece6;
+  font: 16px/1.45 'Avenir Next', 'Helvetica Neue', sans-serif;
+  letter-spacing: 0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #e9ece6;
+  background-image:
+    linear-gradient(rgb(48 70 58 / 3%) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(48 70 58 / 3%) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+#root {
+  width: 100%;
+  max-width: none;
+  min-height: 100svh;
+  margin: 0;
+  display: block;
+  border: 0;
+  text-align: left;
+}
